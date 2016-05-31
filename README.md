@@ -26,4 +26,3 @@ This is a fork of [fayimora/basic-scala-project.g8](https://github.com/fayimora/
 * Scalatest 1.9.1 for testing
 * Sbt 0.12.4
 * Scala 2.10.2
-
