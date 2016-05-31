@@ -9,6 +9,8 @@ This is a fork of [fayimora/basic-scala-project.g8](https://github.com/fayimora/
 
 ### 0.3
 * specs2 3.8.3
+* sbt 0.13.11
+* Scala 2.11.8
 
 ### 0.2
 * specs 2.3.7 in place of Scalatest
