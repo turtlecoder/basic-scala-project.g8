@@ -4,10 +4,10 @@ organization := "$organization$"
 
 version := "$version$"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.1"
 
 libraryDependencies ++= Seq(
-  "org.specs2" %% "specs2-core" % "3.8.3" % "test"
+  "org.specs2" %% "specs2-core" % "3.8.9" % "test"
 )
 
 scalacOptions in Test ++= Seq("-Yrangepos")
@@ -17,4 +17,4 @@ scalacOptions in Test ++= Seq("-Yrangepos")
 
 resolvers ++= Seq("snapshots", "releases").map(Resolver.sonatypeRepo)
 
-initialCommands := "import $organization$.$name;format="lower,word"$._"
+initialCommands := "import $organization$._"
