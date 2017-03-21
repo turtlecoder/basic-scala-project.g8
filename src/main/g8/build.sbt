@@ -9,7 +9,6 @@ scalaVersion := "2.12.1"
 libraryDependencies ++= Seq(
   "com.github.scopt" %% "scopt" % "3.5.0", // command line parsing
   "com.lihaoyi" % "ammonite" % "0.8.2" cross CrossVersion.full,
-  "com.lihaoyi" % "ammonite" % "0.8.2" cross CrossVersion.full,
   "org.scalaz" %% "scalaz-core" % "7.2.10",
   "org.scalaz" %% "scalaz-effect" % "7.2.10",
   "org.scalaz" %% "scalaz-concurrent" % "7.2.10",
