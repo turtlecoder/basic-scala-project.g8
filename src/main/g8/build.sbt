@@ -41,7 +41,6 @@ scalacOptions in Test ++= Seq(
   "-Ywarn-dead-code",
   "-Xlint",
   "-Xfatal-warnings")
-b
 
 // Read here for optional dependencies:
 // https://etorreborre.github.io/specs2/guide/SPECS2-3.8.3/org.specs2.guide.Installation.html#other-dependencies
