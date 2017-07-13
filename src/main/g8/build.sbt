@@ -4,14 +4,14 @@ organization := "$organization$"
 
 version := "$version$"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq(
-  "com.github.scopt" %% "scopt" % "3.5.0", // command line parsing
-  "com.lihaoyi" % "ammonite" % "0.8.2" cross CrossVersion.full,
-  "org.scalaz" %% "scalaz-core" % "7.2.10",
-  "org.scalaz" %% "scalaz-effect" % "7.2.10",
-  "org.scalaz" %% "scalaz-concurrent" % "7.2.10",
+  "com.github.scopt" %% "scopt" % "3.6.0", // command line parsing
+  "com.lihaoyi" % "ammonite" % "1.0.0" cross CrossVersion.full,
+  "org.scalaz" %% "scalaz-core" % "7.2.14",
+  "org.scalaz" %% "scalaz-effect" % "7.2.14",
+  "org.scalaz" %% "scalaz-concurrent" % "7.2.14",
   "ch.qos.logback" % "logback-classic" % "1.2.2", // logging
   "org.specs2" %% "specs2-core" % "3.8.9" % "test"
 )
