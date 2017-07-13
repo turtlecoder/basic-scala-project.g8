@@ -12,7 +12,7 @@ libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-core" % "7.2.14",
   "org.scalaz" %% "scalaz-effect" % "7.2.14",
   "org.scalaz" %% "scalaz-concurrent" % "7.2.14",
-  "ch.qos.logback" % "logback-classic" % "1.2.2", // logging
+  "ch.qos.logback" % "logback-classic" % "1.2.3", // logging
   "org.specs2" %% "specs2-core" % "3.8.9" % "test"
 )
 
