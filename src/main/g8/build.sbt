@@ -13,7 +13,10 @@ libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-effect" % "7.2.14",
   "org.scalaz" %% "scalaz-concurrent" % "7.2.14",
   "ch.qos.logback" % "logback-classic" % "1.2.3", // logging
-  "org.specs2" %% "specs2-core" % "3.9.1" % "test"
+  "org.typelevel" %% "squants" % "1.3.0", // Handling Quantities
+  "com.typesafe" % "config" % "1.3.1",    // Handle Configuration
+  "org.specs2" %% "specs2-core" % "3.9.1" % "test", // Specs Testing
+  "org.scalacheck" %% "scalacheck" % "1.13.4" % "test" // Property Based Testing
 )
 
 scalacOptions in Test ++= Seq("-Yrangepos")
